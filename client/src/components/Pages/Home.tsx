@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.scss';
+import Button from '../ui/Button';
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
@@ -201,18 +202,19 @@ export default function Home() {
           </div>
 
           <div className={styles.controlsPanel}>
-            <button
+            {/* Перенести на отдельный компонент кнопки */}
+            <Button
               className={`${styles.button} ${styles['button--cut']}`}
               onClick={handleCut}
             >
               Cut Video
-            </button>
-            <button
+            </Button>
+            <Button
               className={`${styles.button} ${styles['button--remove-pauses']}`}
               onClick={handleRemovePauses}
             >
               Remove Pauses and Awkward Moments
-            </button>
+            </Button>
           </div>
         </div>
       )}
