@@ -1,0 +1,17 @@
+/* Импорт базовых стилей Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Пользовательские стили */
+body {
+  @apply bg-gray-50 text-gray-800 font-sans;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800 transition;
+}
+
+button {
+  @apply cursor-pointer;
+}

@@ -1,1 +1,0 @@
-// Bull queue adapter

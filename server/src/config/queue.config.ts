@@ -1,1 +1,0 @@
-// Job queue configuration

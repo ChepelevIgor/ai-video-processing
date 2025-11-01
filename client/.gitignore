@@ -2,3 +2,5 @@ node_modules/
 uploads/
 processed/
 .env
+.next
+dist

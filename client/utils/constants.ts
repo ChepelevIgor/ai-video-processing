@@ -1,0 +1,3 @@
+export const FRAME_SAMPLES_DEFAULT = 500;
+export const WAVEFORM_CANVAS_WIDTH = 800;
+export const WAVEFORM_CANVAS_HEIGHT = 100;
